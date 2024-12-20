@@ -1,0 +1,201 @@
+header{
+    display: flex;
+    background-color: #6FA0B4;
+}
+
+#logo{
+    width:200px;
+    height: 200px;
+}
+
+#titleHead{
+    margin-left: 60px;
+    padding-top: 20px;
+    color:white;
+}
+
+#titleHead h2{
+    padding-top: 10px;
+    font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+#titleHead h1 {
+    font-family: "Anton", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 10px 80px;
+    background-color: #1486B3;
+    width: 25%;
+
+    font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+    color:white;
+
+    text-align: center;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  align-items: center;
+  
+}
+
+nav a:hover{
+    background-color: #2ca8da;
+    transition: all 0.3s;
+    
+    font-size: 18px;
+    font-weight: 200;
+    font-family: "Anton", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+#section{
+    width: 50%;
+    padding-left:190px;
+    padding-top:20px;
+}
+
+body{
+    background: linear-gradient(#6FA0B4, #895a85);;
+    margin: 0;
+}
+
+#section img {
+    
+    width:135%;
+    height: 100%;
+}
+
+.container{
+    display: flex;
+}
+
+#aside{
+    padding: 40px 0px;
+    width: 40%;
+    color:aliceblue;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+  font-weight: 350;
+  font-style: normal;
+    
+}
+
+#section-image img{
+    width:180%;
+    margin:10px;
+}
+
+#section-image{
+    display: flex;
+    width:20%;
+    padding-left: 150px;
+}
+
+#image-container{
+    width: 60%;
+    margin: 0;
+    
+}
+
+#texts-section{
+    display: flex;
+    padding-left: 80px;
+    justify-content: space-around;
+}
+
+.paragraphs{
+    width:35%;
+    color:aliceblue;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+  font-weight: 350;
+  font-style: normal;
+}
+
+#pre-footer{
+    background-color: #893D83;
+    width: 100%;
+    left:100px;
+    height: 50px;
+    font-size:20px;
+    color:antiquewhite;
+    padding-top: 20px;
+    font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    text-align: center;
+    margin: 0;
+    
+}
+
+.hova:hover{
+    color:#ff0080;
+    transition: all 0.2s;
+}
+
+
+
+footer{
+    background-color: #6618DE;
+    margin: -30px;
+    height: 200px;
+    
+}
+
+
+
+#support ul{
+    color:antiquewhite;
+    padding-top: 20px;
+    font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    text-align: center;
+    list-style-type:  none;
+    line-height: 2;
+}
+
+@media (max-width: 600px) {
+    .logo {
+        font-size: 28px; /* Уменьшаем размер шрифта для заголовка */
+    }
+    .nav a {
+        font-size: 16px; /* Уменьшаем размер шрифта для навигации */
+    }
+    .section-link {
+        padding: 15px; /* Уменьшаем отступы в секциях */
+        margin: 10px; /* Уменьшаем отступы между секциями */
+    }
+    .text {
+        font-size: 18px; /* Уменьшаем размер шрифта для текста */
+    }
+    .footer-section h4, .footer-section p {
+        font-size: 14px; /* Уменьшаем размер шрифта в футере */
+    }
+}
+
