@@ -180,22 +180,92 @@ footer{
     line-height: 2;
 }
 
-@media (max-width: 600px) {
-    .logo {
-        font-size: 28px; /* Уменьшаем размер шрифта для заголовка */
+@media (max-width: 1200px) {
+    #titleHead {
+        margin-left: 20px; 
     }
-    .nav a {
-        font-size: 16px; /* Уменьшаем размер шрифта для навигации */
-    }
-    .section-link {
-        padding: 15px; /* Уменьшаем отступы в секциях */
-        margin: 10px; /* Уменьшаем отступы между секциями */
-    }
-    .text {
-        font-size: 18px; /* Уменьшаем размер шрифта для текста */
-    }
-    .footer-section h4, .footer-section p {
-        font-size: 14px; /* Уменьшаем размер шрифта в футере */
+    
+    nav a {
+        width: 30%; 
+        padding: 10px 5px; 
     }
 }
 
+@media (max-width: 992px) {
+    #logo {
+        width: 150px; 
+        height: auto; 
+    }
+
+    #titleHead {
+        margin-left: 10px; 
+    }
+    
+    nav a {
+        width: 45%; 
+    }
+
+    #aside {
+        width: 100%; 
+        padding: 20px; 
+    }
+
+    #image-container {
+        width: 100%; 
+    }
+
+    #section-image {
+        width: 100%; 
+        flex-direction: column; 
+    }
+
+    #section-image img {
+        width: 100%; 
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav a {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .container {
+        flex-direction: column; 
+    }
+
+    #aside {
+        width: 100%; 
+        margin-top: 20px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    #logo {
+        width: 100px; 
+    }
+
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    nav a {
+        padding: 5px; 
+    }
+
+    #pre-footer, footer {
+        font-size: 14px; 
+        width: 480px;
+    }
+}
